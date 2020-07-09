@@ -47,8 +47,7 @@ yarn add react-native-vector-icons
   <string>Fontisto.ttf</string>
 </array>
 ```
-
-![image-20200709180644691](/Users/yqp/Library/Application Support/typora-user-images/image-20200709180644691.png)
+![](https://img-blog.csdnimg.cn/20200710021847420.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzM0MjczMDU5,size_16,color_FFFFFF,t_70)
 
 - 到`ios`目录下`pod install`安装，即可在ios中使用这个图标库
 
@@ -59,8 +58,7 @@ yarn add react-native-vector-icons
 ```shell
 apply from: "../../node_modules/react-native-vector-icons/fonts.gradle"
 ```
-
-![image-20200709181259085](/Users/yqp/Library/Application Support/typora-user-images/image-20200709181259085.png)
+![](https://img-blog.csdnimg.cn/20200710021922791.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzM0MjczMDU5,size_16,color_FFFFFF,t_70)
 
 > ⚠️注意：完成上面操作之后，需要`react-native run-ios`和`react-native run-android`重新启动两个模拟器
 
@@ -73,11 +71,7 @@ import Ionicons from 'react-native-vector-icons/Ionicons'
 
 <Ionicons name={'bluetooth'} size={90} style={{color:'blue'}}/>
 ```
-
-![image-20200710010953467](/Users/yqp/Library/Application Support/typora-user-images/image-20200710010953467.png)
-
-
-
+![](https://img-blog.csdnimg.cn/20200710022034106.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzM0MjczMDU5,size_16,color_FFFFFF,t_70)
 #### 3、安装`react-navigation`库
 
 - 安装第三方库
